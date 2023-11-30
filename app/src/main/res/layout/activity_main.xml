@@ -1,53 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/red_200"
     android:orientation="vertical"
-    android:background="@color/red_700"
-    tools:context=".MainActivity"
-    android:statusBarColor="@color/red_700"
-    android:navigationBarColor="@color/red_700">
+    tools:context=".MainActivity">
 
     <ImageView
+        android:layout_gravity="center"
         android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="267dp"
+        android:layout_height="353dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_image" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
         android:scaleX="0.9"
         android:scaleY="0.9"
-        android:translationY="150dp">
+        android:translationY="300dp"
+        app:cardCornerRadius="15dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:paddingTop="15dp"
             android:rotationX="0">
 
             <TextView
                 android:id="@+id/LoginText"
+                android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
                 android:layout_marginVertical="10dp"
                 android:text="E-Mail"
-                android:textColor="@color/red_200"
+                android:textColor="@color/red_500"
                 android:textSize="25dp" />
 
             <EditText
                 android:id="@+id/EditLogin"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
                 android:layout_marginHorizontal="30dp"
                 android:hint="Введите e-mail" />
 
             <TextView
+                android:layout_gravity="center"
                 android:id="@+id/passwordText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,30 +62,33 @@
                 android:layout_marginVertical="10dp"
                 android:fontFamily="cursive"
                 android:text="Пароль"
-                android:textColor="@color/red_200"
+                android:textColor="@color/red_500"
                 android:textSize="25dp" />
 
             <EditText
                 android:id="@+id/EditPassword"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
                 android:layout_marginHorizontal="30dp"
                 android:hint="Введите пароль" />
 
             <Button
                 android:id="@+id/RegisterBtn"
-                android:layout_width="221dp"
-                android:layout_height="wrap_content"
+                android:layout_width="299dp"
+                android:layout_height="75dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="100dp"
                 android:layout_marginVertical="10dp"
                 android:backgroundTint="@color/red_700"
                 android:gravity="center"
+
                 android:text="Зарегистрировать ученика"
                 android:textColor="@color/white"
                 app:strokeColor="@color/red_500" />
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
