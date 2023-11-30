@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "3373020207",
+    "firebase_url": "https://s3cur0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "s3cur0",
+    "storage_bucket": "s3cur0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3373020207:android:9a0d82895ed5fbabdb82da",
+        "android_client_info": {
+          "package_name": "com.example.securo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr7k3sHYxlpcZcEtG_1vm1jmEKy_BxA7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3373020207:android:9eedb03b076ac88edb82da",
+        "android_client_info": {
+          "package_name": "com.example.securoadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr7k3sHYxlpcZcEtG_1vm1jmEKy_BxA7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3373020207:android:8fa39a7e5a8a9c82db82da",
+        "android_client_info": {
+          "package_name": "com.example.securoguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr7k3sHYxlpcZcEtG_1vm1jmEKy_BxA7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
